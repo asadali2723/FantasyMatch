@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* FantasyMatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FantasyMatchTests.m */; };
+		06620C712C414024B3E1E30C /* Kalnia_Expanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEAF671430E541239A3C56F6 /* Kalnia_Expanded-Regular.ttf */; };
+		0AA3269C99404E2C9D27E68A /* Kalnia_Expanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E22192EEB1C94DF38D01BC85 /* Kalnia_Expanded-Medium.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-FantasyMatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FantasyMatch.a */; };
+		12F80072EE9143A3B37100F1 /* Kalnia-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4689D92AEDFB43D8ABE4227C /* Kalnia-ExtraLight.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1488AA287F1D4270B4B39956 /* Kalnia-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30C87A28D4B4427C897FC3E6 /* Kalnia-Thin.ttf */; };
+		1D619EBF0570479480D57073 /* Kalnia-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBB57D48A5D346AE9883E04F /* Kalnia-Regular.ttf */; };
+		3A0FC1BDBD7D42C2B390AE15 /* Kalnia_Expanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6CC6C426CA544AE8FF0345C /* Kalnia_Expanded-SemiBold.ttf */; };
+		4BCEEB065F334EF7AAD0F9D0 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68406D34676C49C7A15A7994 /* Inter-Regular.ttf */; };
+		5F2D00A147AE49EB87361C8E /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30969C7FF3C247D38BA22242 /* Inter-ExtraBold.ttf */; };
+		6A1B0B08A7D049D1A99587EB /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7EEA8735ECF4601BF767E12 /* Inter-Thin.ttf */; };
+		6C3BA291B094462BBC94FAB0 /* Kalnia_SemiExpanded-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E436C48E6034CDB9E65D70D /* Kalnia_SemiExpanded-Thin.ttf */; };
+		6DA2B62A2DB646EEA0B9DEA0 /* Kalnia-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A695416D029D40A49F88A88D /* Kalnia-SemiBold.ttf */; };
+		743901B5F93948BE947DB2EE /* Kalnia_SemiExpanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897B551E4E8E47C0BD8B8F4A /* Kalnia_SemiExpanded-Medium.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-FantasyMatch-FantasyMatchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FantasyMatch-FantasyMatchTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		869EE86A2A7A41E8801E3941 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43D70B0B7F204E93BB4D242E /* Inter-ExtraLight.ttf */; };
+		86E77B82FB2D4C888D6640DF /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D77E1A400914C1E98C08518 /* Inter-Light.ttf */; };
+		8A329859409F4162835B70DD /* Kalnia_SemiExpanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96C7CC8054B9423AB0DD4816 /* Kalnia_SemiExpanded-SemiBold.ttf */; };
+		8BAB2CD8BD0C41C2A05A564C /* Kalnia-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA86FEF2D439433FA1B86709 /* Kalnia-Light.ttf */; };
+		9353352AE1204791942F629D /* Kalnia_SemiExpanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDB292D3D94E49829E6BF890 /* Kalnia_SemiExpanded-Light.ttf */; };
+		99FFB5E4A2EA4138839132F1 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B96864BBC5A42BC99ECFBB5 /* impact.ttf */; };
+		9E09EE27611E4E3996E92AFE /* Kalnia_Expanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C357C949F5497F8A08F2A9 /* Kalnia_Expanded-Light.ttf */; };
+		A61FA676B0A44C98ADA8A875 /* Kalnia-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93FECC90D9D0457FBCEB2C4A /* Kalnia-Medium.ttf */; };
+		B1CFF303BD814B2387B4889C /* Kalnia_Expanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BDA015786C84EBB9EA8EEB6 /* Kalnia_Expanded-Bold.ttf */; };
+		B6A5C6200DE74CF68CB00CB0 /* Kalnia_SemiExpanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DD482B89A394062B9F77567 /* Kalnia_SemiExpanded-Regular.ttf */; };
+		B7113C42B467471392CE8DCC /* Kalnia-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F6810986C24CFBA13F4C8D /* Kalnia-Bold.ttf */; };
+		BCD00957B9B04100918F4AA1 /* Kalnia_SemiExpanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60F71E0C977F40449CBB9A89 /* Kalnia_SemiExpanded-Bold.ttf */; };
+		C04EA15EA77546FDA0AE23FC /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3340493BD2AC4251B6EEA1AC /* Inter-Medium.ttf */; };
+		C53DAE7F25CB4242AA83AE96 /* Kalnia_Expanded-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 026550FD29DF48C2AA22BAEE /* Kalnia_Expanded-Thin.ttf */; };
+		D6D3D2E825F64F73B55F2B09 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A3CF7BD6147069D7F90AC /* Inter-Black.ttf */; };
+		DEB5D3FA2C974149B5FEAB26 /* Kalnia_Expanded-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B44ED96739474BBEAF7FCFBC /* Kalnia_Expanded-ExtraLight.ttf */; };
+		DEFED250E52C4BF98DB0902B /* Kalnia_SemiExpanded-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 543199E34D1B4BFD85F5FB3A /* Kalnia_SemiExpanded-ExtraLight.ttf */; };
+		E65F015B240743A0AB97A75C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39A6787DFDFE49F28F0B57A5 /* Inter-Bold.ttf */; };
+		FEA91622C2C042D3B4C20F01 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00A9E8E140C0418B944D865E /* Inter-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = FantasyMatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A9E8E140C0418B944D865E /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* FantasyMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FantasyMatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasyMatchTests.m; sourceTree = "<group>"; };
+		026550FD29DF48C2AA22BAEE /* Kalnia_Expanded-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-Thin.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-Thin.ttf"; sourceTree = "<group>"; };
+		0BDA015786C84EBB9EA8EEB6 /* Kalnia_Expanded-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-Bold.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FantasyMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FantasyMatch/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FantasyMatch/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FantasyMatch/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FantasyMatch/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FantasyMatch/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FantasyMatch-FantasyMatchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantasyMatch-FantasyMatchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9A3CF7BD6147069D7F90AC /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		30969C7FF3C247D38BA22242 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		30C87A28D4B4427C897FC3E6 /* Kalnia-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-Thin.ttf"; path = "../src/assets/fonts/Kalnia-Thin.ttf"; sourceTree = "<group>"; };
+		3340493BD2AC4251B6EEA1AC /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		35C357C949F5497F8A08F2A9 /* Kalnia_Expanded-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-Light.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-Light.ttf"; sourceTree = "<group>"; };
+		39A6787DFDFE49F28F0B57A5 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-FantasyMatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyMatch.debug.xcconfig"; path = "Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch.debug.xcconfig"; sourceTree = "<group>"; };
+		3E436C48E6034CDB9E65D70D /* Kalnia_SemiExpanded-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-Thin.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-Thin.ttf"; sourceTree = "<group>"; };
+		43D70B0B7F204E93BB4D242E /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4689D92AEDFB43D8ABE4227C /* Kalnia-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-ExtraLight.ttf"; path = "../src/assets/fonts/Kalnia-ExtraLight.ttf"; sourceTree = "<group>"; };
+		543199E34D1B4BFD85F5FB3A /* Kalnia_SemiExpanded-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-ExtraLight.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-FantasyMatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyMatch.release.xcconfig"; path = "Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-FantasyMatch-FantasyMatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyMatch-FantasyMatchTests.debug.xcconfig"; path = "Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B96864BBC5A42BC99ECFBB5 /* impact.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = impact.ttf; path = ../src/assets/fonts/impact.ttf; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-FantasyMatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantasyMatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD482B89A394062B9F77567 /* Kalnia_SemiExpanded-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-Regular.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-Regular.ttf"; sourceTree = "<group>"; };
+		60F71E0C977F40449CBB9A89 /* Kalnia_SemiExpanded-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-Bold.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-Bold.ttf"; sourceTree = "<group>"; };
+		68406D34676C49C7A15A7994 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FantasyMatch/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897B551E4E8E47C0BD8B8F4A /* Kalnia_SemiExpanded-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-Medium.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-Medium.ttf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-FantasyMatch-FantasyMatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyMatch-FantasyMatchTests.release.xcconfig"; path = "Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D77E1A400914C1E98C08518 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		93FECC90D9D0457FBCEB2C4A /* Kalnia-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-Medium.ttf"; path = "../src/assets/fonts/Kalnia-Medium.ttf"; sourceTree = "<group>"; };
+		96C7CC8054B9423AB0DD4816 /* Kalnia_SemiExpanded-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-SemiBold.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-SemiBold.ttf"; sourceTree = "<group>"; };
+		A695416D029D40A49F88A88D /* Kalnia-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-SemiBold.ttf"; path = "../src/assets/fonts/Kalnia-SemiBold.ttf"; sourceTree = "<group>"; };
+		AA86FEF2D439433FA1B86709 /* Kalnia-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-Light.ttf"; path = "../src/assets/fonts/Kalnia-Light.ttf"; sourceTree = "<group>"; };
+		B44ED96739474BBEAF7FCFBC /* Kalnia_Expanded-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-ExtraLight.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C6CC6C426CA544AE8FF0345C /* Kalnia_Expanded-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-SemiBold.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-SemiBold.ttf"; sourceTree = "<group>"; };
+		D7EEA8735ECF4601BF767E12 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		E22192EEB1C94DF38D01BC85 /* Kalnia_Expanded-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-Medium.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-Medium.ttf"; sourceTree = "<group>"; };
+		EBB57D48A5D346AE9883E04F /* Kalnia-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-Regular.ttf"; path = "../src/assets/fonts/Kalnia-Regular.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EEAF671430E541239A3C56F6 /* Kalnia_Expanded-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_Expanded-Regular.ttf"; path = "../src/assets/fonts/Kalnia_Expanded-Regular.ttf"; sourceTree = "<group>"; };
+		F8F6810986C24CFBA13F4C8D /* Kalnia-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia-Bold.ttf"; path = "../src/assets/fonts/Kalnia-Bold.ttf"; sourceTree = "<group>"; };
+		FDB292D3D94E49829E6BF890 /* Kalnia_SemiExpanded-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalnia_SemiExpanded-Light.ttf"; path = "../src/assets/fonts/Kalnia_SemiExpanded-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-FantasyMatch-FantasyMatchTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-FantasyMatch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* FantasyMatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* FantasyMatchTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = FantasyMatchTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* FantasyMatch */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = FantasyMatch;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-FantasyMatch.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FantasyMatch-FantasyMatchTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* FantasyMatch */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* FantasyMatchTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E4229E6BF0A64440BAA5DA92 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* FantasyMatch.app */,
+				00E356EE1AD99517003FC87E /* FantasyMatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-FantasyMatch.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-FantasyMatch.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-FantasyMatch-FantasyMatchTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-FantasyMatch-FantasyMatchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4229E6BF0A64440BAA5DA92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F6810986C24CFBA13F4C8D /* Kalnia-Bold.ttf */,
+				4689D92AEDFB43D8ABE4227C /* Kalnia-ExtraLight.ttf */,
+				AA86FEF2D439433FA1B86709 /* Kalnia-Light.ttf */,
+				93FECC90D9D0457FBCEB2C4A /* Kalnia-Medium.ttf */,
+				EBB57D48A5D346AE9883E04F /* Kalnia-Regular.ttf */,
+				A695416D029D40A49F88A88D /* Kalnia-SemiBold.ttf */,
+				30C87A28D4B4427C897FC3E6 /* Kalnia-Thin.ttf */,
+				0BDA015786C84EBB9EA8EEB6 /* Kalnia_Expanded-Bold.ttf */,
+				B44ED96739474BBEAF7FCFBC /* Kalnia_Expanded-ExtraLight.ttf */,
+				35C357C949F5497F8A08F2A9 /* Kalnia_Expanded-Light.ttf */,
+				E22192EEB1C94DF38D01BC85 /* Kalnia_Expanded-Medium.ttf */,
+				EEAF671430E541239A3C56F6 /* Kalnia_Expanded-Regular.ttf */,
+				C6CC6C426CA544AE8FF0345C /* Kalnia_Expanded-SemiBold.ttf */,
+				026550FD29DF48C2AA22BAEE /* Kalnia_Expanded-Thin.ttf */,
+				60F71E0C977F40449CBB9A89 /* Kalnia_SemiExpanded-Bold.ttf */,
+				543199E34D1B4BFD85F5FB3A /* Kalnia_SemiExpanded-ExtraLight.ttf */,
+				FDB292D3D94E49829E6BF890 /* Kalnia_SemiExpanded-Light.ttf */,
+				897B551E4E8E47C0BD8B8F4A /* Kalnia_SemiExpanded-Medium.ttf */,
+				5DD482B89A394062B9F77567 /* Kalnia_SemiExpanded-Regular.ttf */,
+				96C7CC8054B9423AB0DD4816 /* Kalnia_SemiExpanded-SemiBold.ttf */,
+				3E436C48E6034CDB9E65D70D /* Kalnia_SemiExpanded-Thin.ttf */,
+				1D9A3CF7BD6147069D7F90AC /* Inter-Black.ttf */,
+				39A6787DFDFE49F28F0B57A5 /* Inter-Bold.ttf */,
+				30969C7FF3C247D38BA22242 /* Inter-ExtraBold.ttf */,
+				43D70B0B7F204E93BB4D242E /* Inter-ExtraLight.ttf */,
+				8D77E1A400914C1E98C08518 /* Inter-Light.ttf */,
+				3340493BD2AC4251B6EEA1AC /* Inter-Medium.ttf */,
+				68406D34676C49C7A15A7994 /* Inter-Regular.ttf */,
+				00A9E8E140C0418B944D865E /* Inter-SemiBold.ttf */,
+				D7EEA8735ECF4601BF767E12 /* Inter-Thin.ttf */,
+				5B96864BBC5A42BC99ECFBB5 /* impact.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* FantasyMatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FantasyMatchTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = FantasyMatchTests;
+			productReference = 00E356EE1AD99517003FC87E /* FantasyMatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* FantasyMatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FantasyMatch" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyMatch;
+			productName = FantasyMatch;
+			productReference = 13B07F961A680F5B00A75B9A /* FantasyMatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FantasyMatch" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* FantasyMatch */,
+				00E356ED1AD99517003FC87E /* FantasyMatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B7113C42B467471392CE8DCC /* Kalnia-Bold.ttf in Resources */,
+				12F80072EE9143A3B37100F1 /* Kalnia-ExtraLight.ttf in Resources */,
+				8BAB2CD8BD0C41C2A05A564C /* Kalnia-Light.ttf in Resources */,
+				A61FA676B0A44C98ADA8A875 /* Kalnia-Medium.ttf in Resources */,
+				1D619EBF0570479480D57073 /* Kalnia-Regular.ttf in Resources */,
+				6DA2B62A2DB646EEA0B9DEA0 /* Kalnia-SemiBold.ttf in Resources */,
+				1488AA287F1D4270B4B39956 /* Kalnia-Thin.ttf in Resources */,
+				B1CFF303BD814B2387B4889C /* Kalnia_Expanded-Bold.ttf in Resources */,
+				DEB5D3FA2C974149B5FEAB26 /* Kalnia_Expanded-ExtraLight.ttf in Resources */,
+				9E09EE27611E4E3996E92AFE /* Kalnia_Expanded-Light.ttf in Resources */,
+				0AA3269C99404E2C9D27E68A /* Kalnia_Expanded-Medium.ttf in Resources */,
+				06620C712C414024B3E1E30C /* Kalnia_Expanded-Regular.ttf in Resources */,
+				3A0FC1BDBD7D42C2B390AE15 /* Kalnia_Expanded-SemiBold.ttf in Resources */,
+				C53DAE7F25CB4242AA83AE96 /* Kalnia_Expanded-Thin.ttf in Resources */,
+				BCD00957B9B04100918F4AA1 /* Kalnia_SemiExpanded-Bold.ttf in Resources */,
+				DEFED250E52C4BF98DB0902B /* Kalnia_SemiExpanded-ExtraLight.ttf in Resources */,
+				9353352AE1204791942F629D /* Kalnia_SemiExpanded-Light.ttf in Resources */,
+				743901B5F93948BE947DB2EE /* Kalnia_SemiExpanded-Medium.ttf in Resources */,
+				B6A5C6200DE74CF68CB00CB0 /* Kalnia_SemiExpanded-Regular.ttf in Resources */,
+				8A329859409F4162835B70DD /* Kalnia_SemiExpanded-SemiBold.ttf in Resources */,
+				6C3BA291B094462BBC94FAB0 /* Kalnia_SemiExpanded-Thin.ttf in Resources */,
+				D6D3D2E825F64F73B55F2B09 /* Inter-Black.ttf in Resources */,
+				E65F015B240743A0AB97A75C /* Inter-Bold.ttf in Resources */,
+				5F2D00A147AE49EB87361C8E /* Inter-ExtraBold.ttf in Resources */,
+				869EE86A2A7A41E8801E3941 /* Inter-ExtraLight.ttf in Resources */,
+				86E77B82FB2D4C888D6640DF /* Inter-Light.ttf in Resources */,
+				C04EA15EA77546FDA0AE23FC /* Inter-Medium.ttf in Resources */,
+				4BCEEB065F334EF7AAD0F9D0 /* Inter-Regular.ttf in Resources */,
+				FEA91622C2C042D3B4C20F01 /* Inter-SemiBold.ttf in Resources */,
+				6A1B0B08A7D049D1A99587EB /* Inter-Thin.ttf in Resources */,
+				99FFB5E4A2EA4138839132F1 /* impact.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasyMatch-FantasyMatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasyMatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch/Pods-FantasyMatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyMatch-FantasyMatchTests/Pods-FantasyMatch-FantasyMatchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* FantasyMatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* FantasyMatch */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FantasyMatch-FantasyMatchTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FantasyMatchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantasymatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyMatch.app/FantasyMatch";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FantasyMatch-FantasyMatchTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = FantasyMatchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantasymatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyMatch.app/FantasyMatch";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FantasyMatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FantasyMatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FantasyMatch;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantasymatch;
+				PRODUCT_NAME = FantasyMatch;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FantasyMatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = FantasyMatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FantasyMatch;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantasymatch;
+				PRODUCT_NAME = FantasyMatch;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FantasyMatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FantasyMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FantasyMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
