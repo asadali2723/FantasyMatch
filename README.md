@@ -1,3 +1,26 @@
+Here is the organized folder structure for this project:
+
+src/
+|-- assets       // Contains images and fonts
+|-- constants    // Holds constants, static data, image paths, font names, etc.
+|-- Navigation   // Includes the stack navigator
+|-- Components   // Houses all components used in the app
+|-- Screens      // Consists of three screens: onboarding, dashboard, and scheduling
+|-- Utils        // Contains common functions, global styles, and responsive.js
+|-- Services     // Holds navigation functions like navigation.navigate, goBack, etc.
+|-- Redux        // Manages actions, reducers, types, constants, and sagas
+|   |-- actions
+|   |-- reducers
+|   |-- types
+|   |-- constants
+|   |-- saga
+|       // Here, I choose Redux Saga for its benefits:
+|       // - Handles complex asynchronous logic and side effects
+|       // - Organizes asynchronous tasks in a scalable way
+|       // - Provides a clean and readable approach to manage async operations
+|       // - Anticipates potential future API integrations or async tasks
+|       // - Centralizes navigation logic and simulates API calls for loader handling
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -50,7 +73,7 @@ This is one way to run your app — you can also run it directly from within And
 
 Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
+1. Open `App.js` in your text editor of choice and edit some lines.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
